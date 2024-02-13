@@ -9,3 +9,12 @@ body {
   background-color: white;
 }
 
+.main-box{
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/minimalistic-wireless-mac-keyboard-gwoj8nqfdgbdiuvj.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+  
