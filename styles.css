@@ -20,9 +20,10 @@ body {
 .sidebar{
   position: fixed;
   background-color: rgba(255,255,255,0.1);
-  width: 250px;
+  width: 280px;
   height: 100vh;
   box-shadow:  0 0 6px rgba(255,255,255,0.5) ;
+  display: none;
 }
 
 ul{
@@ -66,5 +67,36 @@ ul{
 .social-media{
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 100px;
+  transform: translateX(-50%);
+}
+.social-media i{
+  padding: 0 5px;
+  color: #fff;
+}
+.menu li:hover{
+  box-shadow:0 0 4px rgba(255,255,255,0.5) ;
+  font-size: 15px;
+}
+.btn-one i{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.btn-two{
+  font-size: 22px;
+  font-weight: 700;
+}
+#check{
+  display: none;
+}
+
+#check:checked ~ .btn-one{
+  display: none;
+
+}
+#check:checked ~ .sidebar{
+  display: block;
 }
